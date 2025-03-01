@@ -203,7 +203,7 @@ with tab2:
     st.write("## **Education**")
     st.write("""
     - **Bachelor of Science**, University of Oregon (2017-2021)  
-      *Focus: Bioinformatics, Computational Biology, Machine Learning in Healthcare*
+      *Focus: Human Physiology, Biochemistry,Applications in Medicine  *
     """)
 
     # Experience Section
