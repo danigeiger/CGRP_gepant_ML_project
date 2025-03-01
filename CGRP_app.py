@@ -176,7 +176,7 @@ with tab1:
 
     # Example Files
     st.write("### Example Input Files")
-    for file in ["sample_data.csv", "sample_data.txt"]:
+    for file in ["example_input.csv", "example_input.txt"]:
         if os.path.exists(file):
             with open(file, "rb") as f:
                 st.download_button(f" Download {file}", f.read(), file, "text/csv")
