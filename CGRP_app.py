@@ -270,7 +270,7 @@ with tab3:
     - **Tutoring Math and Chemistry**  
     - **Working with Horses**  
     - **Watercoloring Botanicals**  
-    - **Hiking with my dog **  
+    - **Hiking with my dog**  
 
     **[GitHub](https://github.com/danigeiger)**
     """)
