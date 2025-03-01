@@ -4,4 +4,3 @@ joblib
 padelpy
 scikit-learn
 numpy
-openjdk-11-jre
