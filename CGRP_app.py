@@ -135,7 +135,7 @@ with tab1:
 
     image_path = TAB_IMAGES["CGRP Receptor"]
     if os.path.exists(image_path):
-        st.image(image_path, use_container_width=True)
+        st.image(image_path, use_column_width=True)
 
     # File uploader for TXT or CSV
     file_type = st.radio("Choose File Type:", ["CSV", "TXT"])
@@ -189,7 +189,7 @@ with tab2:
     # Display Resume image
     image_path = TAB_IMAGES["Resume"]
     if os.path.exists(image_path):
-        st.image(image_path, use_container_width=True)
+        st.image(image_path, use_column_width=True)
 
     st.write("""
     ## **Professional Summary**  
@@ -242,9 +242,9 @@ with tab3:
 
     # Display images side by side
     col1, col2, col3 = st.columns(3)
-    with col1: st.image(biography_pics[0], use_container_width=True)
-    with col2: st.image(biography_pics[1], use_container_width=True)
-    with col3: st.image(biography_pics[2], use_container_width=True)
+    with col1: st.image(biography_pics[0], use_column_width=True)
+    with col2: st.image(biography_pics[1], use_column_width=True)
+    with col3: st.image(biography_pics[2], use_column_width=True)
 
     st.write("""
     ### About Me  
